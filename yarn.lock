@@ -323,6 +323,16 @@ electron-to-chromium@^1.4.251:
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.284.tgz#61046d1e4cab3a25238f6bf7413795270f125592"
   integrity sha512-M8WEXFuKXMYMVr45fo8mq0wUrrJHheiKZf6BArTKk9ZBYCKJEOU5H8cdWgDT+qCVZf7Na4lVUaZsA+h6uA9+PA==
 
+eruda-dom@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/eruda-dom/-/eruda-dom-2.0.0.tgz#b4aaac8fcf9df26314a3a98f3d3b0cb02a2aa550"
+  integrity sha512-aVsfmHow+LwInEBvn57WY5vQLNL9uJ8goV6mKTazhOWweI1h/XyqvNt1ojZjQvLM66kWDTgUNuugrP3k6KWDyw==
+
+eruda@^2.5.0:
+  version "2.5.0"
+  resolved "https://registry.yarnpkg.com/eruda/-/eruda-2.5.0.tgz#7a2d2209ea390de023a8ce9edcaca403aa16ab47"
+  integrity sha512-ardSJe7AfCPTzaLJVieX0FwzuL56rDDFemnK1ETcZPsrZcUqYAjUb7gpJPgSj9x06PmeGGGFJKrSlZ0F0d4lJQ==
+
 esbuild-android-64@0.15.11:
   version "0.15.11"
   resolved "https://registry.yarnpkg.com/esbuild-android-64/-/esbuild-android-64-0.15.11.tgz#50402129c3e85bb06434e212374c5f693e4c5f01"
