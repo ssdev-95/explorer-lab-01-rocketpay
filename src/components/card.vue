@@ -9,7 +9,6 @@
 		  <img src="../assets/subtract.svg" alt="" />
 
 			<img
-			  v-if="brand !== 'default'"
 				:src="brandIcons[brand]"
 				alt=""
 			/>

@@ -3,15 +3,16 @@ import { ref, Ref, watch } from 'vue'
 import Visa from '../assets/visa.svg'
 import Master from '../assets/master.svg'
 import Elo from '../assets/elo.svg'
+import Rocket from '../assets/rocket.svg'
 
 const brandIcons = {
 	master: Master,
 	visa: Visa,
 	elo: Elo,
-	default: null
+	default: Rocket
 }
 
-const brand:Ref<'default'|'visa'|'master'|'elo'> = ref('elo')
+const brand:Ref<'default'|'visa'|'master'|'elo'> = ref('default')
 
 const colors = {
 	default: ['#202024', '#121214'],
