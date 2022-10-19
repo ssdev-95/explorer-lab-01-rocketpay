@@ -1,4 +1,5 @@
 import { createApp } from 'vue'
+import { IMaskComponent } from 'vue-imask'
 
 import eruda from 'eruda'
 import erudaDOM from 'eruda-dom'
@@ -6,7 +7,7 @@ import erudaDOM from 'eruda-dom'
 import './style.css'
 import App from './App.vue'
 
-createApp(App).mount('#app')
+createApp(App).component('mask-input', IMaskComponent).mount('#app')
 
 if(
 	window &&

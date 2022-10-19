@@ -7,10 +7,11 @@
 	  <label class="flex flex-col gap-2">
 		  <p class="text-sm">CARD NUMBER</p>
 
-			<input
+			<mask-input
 			  class="bg-zinc-900 w-full rounded ring-1 ring-zinc-500 focus:ring-zinc-100 px-3 py-2"
 				v-model="cardNumber"
-				placeholder="xxxx xxxx xxxx"
+				placeholder="xxxx xxxx xxxx xxxx"
+				:mask="'0000 0000 0000 0000'"
 			  name="cardNumber"
 			/>
 		</label>
@@ -30,10 +31,11 @@
   		<label class="flex flex-col gap-2">
 	  	  <p class="text-sm">EXPIRATION</p>
 
-		  	<input
+		  	<mask-input
 				  class="bg-zinc-900 w-full rounded ring-1 ring-zinc-500 focus:ring-zinc-100 px-3 py-2"
 					v-model="expiration"
-					placeholder="12/2077"
+					placeholder="20/77"
+					:mask="'00{/}00'"
 					name="expiration"
   			/>
   		</label>
@@ -41,10 +43,11 @@
   		<label class="flex flex-col gap-2">
   		  <p class="text-sm">CVV</p>
 
-  			<input
+  			<mask-input
   			  class="bg-zinc-900 w-full rounded ring-1 ring-zinc-500 focus:ring-zinc-100 px-3 py-2"
 					v-model="cvv"
 					placeholder="666"
+					:mask="'000'"
 	  			name="cvv"
 			  />
   		</label>

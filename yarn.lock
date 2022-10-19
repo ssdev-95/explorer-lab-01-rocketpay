@@ -532,6 +532,11 @@ has@^1.0.3:
   dependencies:
     function-bind "^1.1.1"
 
+imask@^6.4.3:
+  version "6.4.3"
+  resolved "https://registry.yarnpkg.com/imask/-/imask-6.4.3.tgz#b81b247043807995e048f559e98930c2fec8004a"
+  integrity sha512-aH2GHemGkr3cbRBfhogHMIx05eUxdHrZNlKTTLmz8VxpSopuHHJ8+85FsDlBVQqxPlDLhZuwj4lpHHWbLOdBSw==
+
 is-binary-path@~2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/is-binary-path/-/is-binary-path-2.1.0.tgz#ea1f7f3b80f064236e83470f86c09c254fb45b09"
@@ -841,6 +846,19 @@ vite@^3.1.0:
     rollup "~2.78.0"
   optionalDependencies:
     fsevents "~2.3.2"
+
+vue-demi@^0.13.11:
+  version "0.13.11"
+  resolved "https://registry.yarnpkg.com/vue-demi/-/vue-demi-0.13.11.tgz#7d90369bdae8974d87b1973564ad390182410d99"
+  integrity sha512-IR8HoEEGM65YY3ZJYAjMlKygDQn25D5ajNFNoKh9RSDMQtlzCxtfQjdQgv9jjK+m3377SsJXY8ysq8kLCZL25A==
+
+vue-imask@^6.4.3:
+  version "6.4.3"
+  resolved "https://registry.yarnpkg.com/vue-imask/-/vue-imask-6.4.3.tgz#67dff21a8232d5c29e3b5d0c1c1f95293f085413"
+  integrity sha512-lGHtknLGZMtWPaQCkeqGrdOpXMq2LfPhiV1NaJ1Kn4YRNXOWFGZt135tRBs5W0gYXTP5g947andrxcJNlPW07g==
+  dependencies:
+    imask "^6.4.3"
+    vue-demi "^0.13.11"
 
 vue-tsc@^0.40.4:
   version "0.40.13"
