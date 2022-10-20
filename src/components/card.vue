@@ -9,20 +9,21 @@
 		  <img src="../assets/subtract.svg" alt="" />
 
 			<img
+			  v-if="brand !== 'default'"
 				:src="brandIcons[brand]"
 				alt=""
 			/>
 		</header>
 
-		<div class="z-20 flex flex-col gap-6">
-		  <strong class="text-xl">
+		<div class="z-20 flex flex-col gap-5">
+		  <strong class="text-2xl">
 			  {{cardNumber ? cardNumber : '----------------------------'}}
 			</strong>
 
 			<p class="text-sm leading-normal">
 			  Onwer
 
-				<strong class="block">
+				<strong class="text-lg block uppercase">
 				  {{ownerName ? ownerName : '-------------------'}}
 				</strong>
 			</p>

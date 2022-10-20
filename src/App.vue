@@ -1,7 +1,14 @@
 <script setup lang="ts">
+  import { onUnmounted } from 'vue'
+	import { timeouts } from './composables/brands'
+
   import Header from './components/header.vue'
 	import Form from './components/form.vue'
 	import Card from './components/card.vue'
+
+	onUnmounted(() => {
+	  timeouts.forEach(clearTimeout)
+	})
 </script>
 
 <template>
