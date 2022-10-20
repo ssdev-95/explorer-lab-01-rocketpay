@@ -60,5 +60,7 @@ http://localhost:3000
 ```
 
 [Layout on Figma™](https://www.figma.com/file/TeGOCZJiFrSfusvK3ndmHx/Explorer-Lab-%2301)
+
 [Live Preview](https://xsallus-rocketpay.vercel.app/)
+
 > Made with 💜 in the Rocketseat's event: ExplorerLab01.
