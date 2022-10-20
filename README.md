@@ -20,9 +20,11 @@
 
 - [x] Vite.
 
-- [x] Vuejs.
+- [x] Vue 3.
 
 - [x] Typescript.
+
+- [x] Tailwind CSS.
 
 - [x] IMask Plugin: vue-imask.
 
